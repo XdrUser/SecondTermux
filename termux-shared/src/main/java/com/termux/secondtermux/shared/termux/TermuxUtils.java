@@ -1,4 +1,4 @@
-package com.termux.shared.termux;
+package com.termux.secondtermux.shared.termux;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -11,20 +11,20 @@ import android.net.Uri;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.termux.shared.R;
-import com.termux.shared.android.AndroidUtils;
-import com.termux.shared.data.DataUtils;
-import com.termux.shared.file.FileUtils;
-import com.termux.shared.reflection.ReflectionUtils;
-import com.termux.shared.shell.command.runner.app.AppShell;
-import com.termux.shared.termux.file.TermuxFileUtils;
-import com.termux.shared.logger.Logger;
-import com.termux.shared.markdown.MarkdownUtils;
-import com.termux.shared.shell.command.ExecutionCommand;
-import com.termux.shared.errors.Error;
-import com.termux.shared.android.PackageUtils;
-import com.termux.shared.termux.TermuxConstants.TERMUX_APP;
-import com.termux.shared.termux.shell.command.environment.TermuxShellEnvironment;
+import com.termux.secondtermux.shared.R;
+import com.termux.secondtermux.shared.android.AndroidUtils;
+import com.termux.secondtermux.shared.data.DataUtils;
+import com.termux.secondtermux.shared.file.FileUtils;
+import com.termux.secondtermux.shared.reflection.ReflectionUtils;
+import com.termux.secondtermux.shared.shell.command.runner.app.AppShell;
+import com.termux.secondtermux.shared.termux.file.TermuxFileUtils;
+import com.termux.secondtermux.shared.logger.Logger;
+import com.termux.secondtermux.shared.markdown.MarkdownUtils;
+import com.termux.secondtermux.shared.shell.command.ExecutionCommand;
+import com.termux.secondtermux.shared.errors.Error;
+import com.termux.secondtermux.shared.android.PackageUtils;
+import com.termux.secondtermux.shared.termux.TermuxConstants.TERMUX_APP;
+import com.termux.secondtermux.shared.termux.shell.command.environment.TermuxShellEnvironment;
 
 import org.apache.commons.io.IOUtils;
 
