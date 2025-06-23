@@ -1,10 +1,10 @@
-package com.termux.shared.termux;
+package com.termux.secondtermux.shared.termux;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
 
-import com.termux.shared.shell.command.ExecutionCommand;
-import com.termux.shared.shell.command.ExecutionCommand.Runner;
+import com.termux.secondtermux.shared.shell.command.ExecutionCommand;
+import com.termux.secondtermux.shared.shell.command.ExecutionCommand.Runner;
 
 import java.io.File;
 import java.util.Arrays;
