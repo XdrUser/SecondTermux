@@ -13,7 +13,7 @@ import android.widget.RelativeLayout;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.termux.shared.termux.TermuxConstants;
+import com.termux.secondtermux.shared.termux.TermuxConstants;
 
 /** Basic embedded browser for viewing help pages. */
 public final class HelpActivity extends AppCompatActivity {

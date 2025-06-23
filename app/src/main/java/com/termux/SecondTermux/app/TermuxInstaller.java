@@ -11,17 +11,17 @@ import android.util.Pair;
 import android.view.WindowManager;
 
 import com.termux.R;
-import com.termux.shared.file.FileUtils;
-import com.termux.shared.termux.crash.TermuxCrashUtils;
-import com.termux.shared.termux.file.TermuxFileUtils;
-import com.termux.shared.interact.MessageDialogUtils;
-import com.termux.shared.logger.Logger;
-import com.termux.shared.markdown.MarkdownUtils;
-import com.termux.shared.errors.Error;
-import com.termux.shared.android.PackageUtils;
-import com.termux.shared.termux.TermuxConstants;
-import com.termux.shared.termux.TermuxUtils;
-import com.termux.shared.termux.shell.command.environment.TermuxShellEnvironment;
+import com.termux.secondtermux.shared.file.FileUtils;
+import com.termux.secondtermux.shared.termux.crash.TermuxCrashUtils;
+import com.termux.secondtermux.shared.termux.file.TermuxFileUtils;
+import com.termux.secondtermux.shared.interact.MessageDialogUtils;
+import com.termux.secondtermux.shared.logger.Logger;
+import com.termux.secondtermux.shared.markdown.MarkdownUtils;
+import com.termux.secondtermux.shared.errors.Error;
+import com.termux.secondtermux.shared.android.PackageUtils;
+import com.termux.secondtermux.shared.termux.TermuxConstants;
+import com.termux.secondtermux.shared.termux.TermuxUtils;
+import com.termux.secondtermux.shared.termux.shell.command.environment.TermuxShellEnvironment;
 
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
@@ -33,10 +33,10 @@ import java.util.List;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
 
-import static com.termux.shared.termux.TermuxConstants.TERMUX_PREFIX_DIR;
-import static com.termux.shared.termux.TermuxConstants.TERMUX_PREFIX_DIR_PATH;
-import static com.termux.shared.termux.TermuxConstants.TERMUX_STAGING_PREFIX_DIR;
-import static com.termux.shared.termux.TermuxConstants.TERMUX_STAGING_PREFIX_DIR_PATH;
+import static com.termux.secondtermux.shared.termux.TermuxConstants.TERMUX_PREFIX_DIR;
+import static com.termux.secondtermux.shared.termux.TermuxConstants.TERMUX_PREFIX_DIR_PATH;
+import static com.termux.secondtermux.shared.termux.TermuxConstants.TERMUX_STAGING_PREFIX_DIR;
+import static com.termux.secondtermux.shared.termux.TermuxConstants.TERMUX_STAGING_PREFIX_DIR_PATH;
 
 /**
  * Install the Termux bootstrap packages if necessary by following the below steps:

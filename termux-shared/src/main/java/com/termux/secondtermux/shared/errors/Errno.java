@@ -1,10 +1,10 @@
-package com.termux.shared.errors;
+package com.termux.secondtermux.shared.errors;
 
 import android.app.Activity;
 
 import androidx.annotation.NonNull;
 
-import com.termux.shared.logger.Logger;
+import com.termux.secondtermux.shared.logger.Logger;
 
 import java.util.Arrays;
 import java.util.Collections;

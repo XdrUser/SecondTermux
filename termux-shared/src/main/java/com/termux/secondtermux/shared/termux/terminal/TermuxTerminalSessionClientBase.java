@@ -1,9 +1,9 @@
-package com.termux.shared.termux.terminal;
+package com.termux.secondtermux.shared.termux.terminal;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.termux.shared.logger.Logger;
+import com.termux.secondtermux.shared.logger.Logger;
 import com.termux.terminal.TerminalSession;
 import com.termux.terminal.TerminalSessionClient;
 

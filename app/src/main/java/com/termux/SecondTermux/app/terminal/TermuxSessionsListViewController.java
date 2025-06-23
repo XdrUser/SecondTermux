@@ -20,9 +20,9 @@ import androidx.core.content.ContextCompat;
 
 import com.termux.R;
 import com.termux.app.TermuxActivity;
-import com.termux.shared.termux.shell.command.runner.terminal.TermuxSession;
-import com.termux.shared.theme.NightMode;
-import com.termux.shared.theme.ThemeUtils;
+import com.termux.secondtermux.shared.termux.shell.command.runner.terminal.TermuxSession;
+import com.termux.secondtermux.shared.theme.NightMode;
+import com.termux.secondtermux.shared.theme.ThemeUtils;
 import com.termux.terminal.TerminalSession;
 
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.termux.shared.shell.command;
+package com.termux.secondtermux.shared.shell.command;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -6,14 +6,14 @@ import android.net.Uri;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.termux.shared.data.IntentUtils;
-import com.termux.shared.shell.command.result.ResultConfig;
-import com.termux.shared.shell.command.result.ResultData;
-import com.termux.shared.errors.Error;
-import com.termux.shared.logger.Logger;
-import com.termux.shared.markdown.MarkdownUtils;
-import com.termux.shared.data.DataUtils;
-import com.termux.shared.shell.command.runner.app.AppShell;
+import com.termux.secondtermux.shared.data.IntentUtils;
+import com.termux.secondtermux.shared.shell.command.result.ResultConfig;
+import com.termux.secondtermux.shared.shell.command.result.ResultData;
+import com.termux.secondtermux.shared.errors.Error;
+import com.termux.secondtermux.shared.logger.Logger;
+import com.termux.secondtermux.shared.markdown.MarkdownUtils;
+import com.termux.secondtermux.shared.data.DataUtils;
+import com.termux.secondtermux.shared.shell.command.runner.app.AppShell;
 import com.termux.terminal.TerminalSession;
 
 import java.util.Collections;
@@ -177,7 +177,7 @@ public class ExecutionCommand {
 
     /**
      * The {@link ExecutionCommand} custom log level for background {@link AppShell}
-     * commands. By default, @link com.termux.shared.shell.StreamGobbler} only logs stdout and
+     * commands. By default, @link com.termux.secondtermux.shared.shell.StreamGobbler} only logs stdout and
      * stderr if {@link Logger} `CURRENT_LOG_LEVEL` is >= {@link Logger#LOG_LEVEL_VERBOSE} and
      * {@link AppShell} only logs stdin if `CURRENT_LOG_LEVEL` is >=
      * {@link Logger#LOG_LEVEL_DEBUG}.

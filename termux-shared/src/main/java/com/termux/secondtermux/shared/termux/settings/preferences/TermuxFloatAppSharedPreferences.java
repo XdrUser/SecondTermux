@@ -1,18 +1,18 @@
-package com.termux.shared.termux.settings.preferences;
+package com.termux.secondtermux.shared.termux.settings.preferences;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.termux.shared.data.DataUtils;
-import com.termux.shared.logger.Logger;
-import com.termux.shared.android.PackageUtils;
-import com.termux.shared.settings.preferences.AppSharedPreferences;
-import com.termux.shared.settings.preferences.SharedPreferenceUtils;
-import com.termux.shared.termux.TermuxUtils;
-import com.termux.shared.termux.settings.preferences.TermuxPreferenceConstants.TERMUX_FLOAT_APP;
-import com.termux.shared.termux.TermuxConstants;
+import com.termux.secondtermux.shared.data.DataUtils;
+import com.termux.secondtermux.shared.logger.Logger;
+import com.termux.secondtermux.shared.android.PackageUtils;
+import com.termux.secondtermux.shared.settings.preferences.AppSharedPreferences;
+import com.termux.secondtermux.shared.settings.preferences.SharedPreferenceUtils;
+import com.termux.secondtermux.shared.termux.TermuxUtils;
+import com.termux.secondtermux.shared.termux.settings.preferences.TermuxPreferenceConstants.TERMUX_FLOAT_APP;
+import com.termux.secondtermux.shared.termux.TermuxConstants;
 
 public class TermuxFloatAppSharedPreferences extends AppSharedPreferences {
 

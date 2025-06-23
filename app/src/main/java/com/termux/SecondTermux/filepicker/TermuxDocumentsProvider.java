@@ -12,7 +12,7 @@ import android.provider.DocumentsProvider;
 import android.webkit.MimeTypeMap;
 
 import com.termux.R;
-import com.termux.shared.termux.TermuxConstants;
+import com.termux.secondtermux.shared.termux.TermuxConstants;
 
 import java.io.File;
 import java.io.FileNotFoundException;

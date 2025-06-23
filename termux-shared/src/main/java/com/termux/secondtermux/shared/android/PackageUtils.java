@@ -1,4 +1,4 @@
-package com.termux.shared.android;
+package com.termux.secondtermux.shared.android;
 
 import android.app.ActivityManager;
 import android.app.admin.DevicePolicyManager;
@@ -16,11 +16,11 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 
-import com.termux.shared.R;
-import com.termux.shared.data.DataUtils;
-import com.termux.shared.interact.MessageDialogUtils;
-import com.termux.shared.logger.Logger;
-import com.termux.shared.reflection.ReflectionUtils;
+import com.termux.secondtermux.shared.R;
+import com.termux.secondtermux.shared.data.DataUtils;
+import com.termux.secondtermux.shared.interact.MessageDialogUtils;
+import com.termux.secondtermux.shared.logger.Logger;
+import com.termux.secondtermux.shared.reflection.ReflectionUtils;
 
 import java.lang.reflect.Field;
 import java.security.MessageDigest;

@@ -31,29 +31,29 @@ import com.termux.app.api.file.FileReceiverActivity;
 import com.termux.app.terminal.TermuxActivityRootView;
 import com.termux.app.terminal.TermuxTerminalSessionActivityClient;
 import com.termux.app.terminal.io.TermuxTerminalExtraKeys;
-import com.termux.shared.activities.ReportActivity;
-import com.termux.shared.activity.ActivityUtils;
-import com.termux.shared.activity.media.AppCompatActivityUtils;
-import com.termux.shared.data.IntentUtils;
-import com.termux.shared.android.PermissionUtils;
-import com.termux.shared.data.DataUtils;
-import com.termux.shared.termux.TermuxConstants;
-import com.termux.shared.termux.TermuxConstants.TERMUX_APP.TERMUX_ACTIVITY;
+import com.termux.secondtermux.shared.activities.ReportActivity;
+import com.termux.secondtermux.shared.activity.ActivityUtils;
+import com.termux.secondtermux.shared.activity.media.AppCompatActivityUtils;
+import com.termux.secondtermux.shared.data.IntentUtils;
+import com.termux.secondtermux.shared.android.PermissionUtils;
+import com.termux.secondtermux.shared.data.DataUtils;
+import com.termux.secondtermux.shared.termux.TermuxConstants;
+import com.termux.secondtermux.shared.termux.TermuxConstants.TERMUX_APP.TERMUX_ACTIVITY;
 import com.termux.app.activities.HelpActivity;
 import com.termux.app.activities.SettingsActivity;
-import com.termux.shared.termux.crash.TermuxCrashUtils;
-import com.termux.shared.termux.settings.preferences.TermuxAppSharedPreferences;
+import com.termux.secondtermux.shared.termux.crash.TermuxCrashUtils;
+import com.termux.secondtermux.shared.termux.settings.preferences.TermuxAppSharedPreferences;
 import com.termux.app.terminal.TermuxSessionsListViewController;
 import com.termux.app.terminal.io.TerminalToolbarViewPager;
 import com.termux.app.terminal.TermuxTerminalViewClient;
-import com.termux.shared.termux.extrakeys.ExtraKeysView;
-import com.termux.shared.termux.interact.TextInputDialogUtils;
-import com.termux.shared.logger.Logger;
-import com.termux.shared.termux.TermuxUtils;
-import com.termux.shared.termux.settings.properties.TermuxAppSharedProperties;
-import com.termux.shared.termux.theme.TermuxThemeUtils;
-import com.termux.shared.theme.NightMode;
-import com.termux.shared.view.ViewUtils;
+import com.termux.secondtermux.shared.termux.extrakeys.ExtraKeysView;
+import com.termux.secondtermux.shared.termux.interact.TextInputDialogUtils;
+import com.termux.secondtermux.shared.logger.Logger;
+import com.termux.secondtermux.shared.termux.TermuxUtils;
+import com.termux.secondtermux.shared.termux.settings.properties.TermuxAppSharedProperties;
+import com.termux.secondtermux.shared.termux.theme.TermuxThemeUtils;
+import com.termux.secondtermux.shared.theme.NightMode;
+import com.termux.secondtermux.shared.view.ViewUtils;
 import com.termux.terminal.TerminalSession;
 import com.termux.terminal.TerminalSessionClient;
 import com.termux.view.TerminalView;
@@ -777,13 +777,13 @@ public final class TermuxActivity extends AppCompatActivity implements ServiceCo
                     TermuxActivity.this, requestCode, !isPermissionCallback)) {
                     if (isPermissionCallback)
                         Logger.logInfoAndShowToast(TermuxActivity.this, LOG_TAG,
-                            getString(com.termux.shared.R.string.msg_storage_permission_granted_on_request));
+                            getString(com.termux.secondtermux.shared.R.string.msg_storage_permission_granted_on_request));
 
                     TermuxInstaller.setupStorageSymlinks(TermuxActivity.this);
                 } else {
                     if (isPermissionCallback)
                         Logger.logInfoAndShowToast(TermuxActivity.this, LOG_TAG,
-                            getString(com.termux.shared.R.string.msg_storage_permission_not_granted_on_request));
+                            getString(com.termux.secondtermux.shared.R.string.msg_storage_permission_not_granted_on_request));
                 }
             }
         }.start();

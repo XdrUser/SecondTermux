@@ -1,4 +1,4 @@
-package com.termux.shared.notification;
+package com.termux.secondtermux.shared.notification;
 
 import android.app.Notification;
 import android.app.NotificationChannel;
@@ -9,7 +9,7 @@ import android.os.Build;
 
 import androidx.annotation.Nullable;
 
-import com.termux.shared.logger.Logger;
+import com.termux.secondtermux.shared.logger.Logger;
 
 public class NotificationUtils {
 

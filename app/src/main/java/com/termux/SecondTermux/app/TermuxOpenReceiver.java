@@ -13,13 +13,13 @@ import android.os.ParcelFileDescriptor;
 import android.provider.MediaStore;
 import android.webkit.MimeTypeMap;
 
-import com.termux.shared.termux.plugins.TermuxPluginUtils;
-import com.termux.shared.data.DataUtils;
-import com.termux.shared.data.IntentUtils;
-import com.termux.shared.net.uri.UriUtils;
-import com.termux.shared.logger.Logger;
-import com.termux.shared.net.uri.UriScheme;
-import com.termux.shared.termux.TermuxConstants;
+import com.termux.secondtermux.shared.termux.plugins.TermuxPluginUtils;
+import com.termux.secondtermux.shared.data.DataUtils;
+import com.termux.secondtermux.shared.data.IntentUtils;
+import com.termux.secondtermux.shared.net.uri.UriUtils;
+import com.termux.secondtermux.shared.logger.Logger;
+import com.termux.secondtermux.shared.net.uri.UriScheme;
+import com.termux.secondtermux.shared.termux.TermuxConstants;
 
 import java.io.File;
 import java.io.FileNotFoundException;

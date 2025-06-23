@@ -13,8 +13,8 @@ import androidx.preference.PreferenceFragmentCompat;
 import androidx.preference.PreferenceManager;
 
 import com.termux.R;
-import com.termux.shared.termux.settings.preferences.TermuxAppSharedPreferences;
-import com.termux.shared.logger.Logger;
+import com.termux.secondtermux.shared.termux.settings.preferences.TermuxAppSharedPreferences;
+import com.termux.secondtermux.shared.logger.Logger;
 
 @Keep
 public class DebuggingPreferencesFragment extends PreferenceFragmentCompat {
